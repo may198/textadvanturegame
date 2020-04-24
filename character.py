@@ -51,9 +51,6 @@ class Enemy(Character):
             print(self.name + " crushes on you.You Die!")
             return False
 
-    def steal(self):
-        print("You got a key from Catrina.Congradulations!")
-
     '''Setting defeated enemies'''
     def set_enemies_defeated(self,numofdefeat):
         Enemy.enimes_defeated = numofdefeat
